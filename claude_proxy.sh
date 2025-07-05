@@ -16,7 +16,7 @@
 #    - 打开此脚本 (`claude_proxy.sh`)。
 #    - 找到 "重点: 需要替换的内容" 部分。
 #    - `API_KEY`: 填入你的 API 密钥。
-#    - `OPEN_AI_URL`: 填入你的代理服务地址 (例如: "tbai.xin/v1")。
+#    - `OPEN_AI_URL`: 填入你的代理服务地址 (例如: "api.oaibest.com/v1")。
 #    - `OPEN_MODEL`: 填入你希望使用的模型名称 (例如: "gemini-1.5-pro")。
 #
 # 2. **运行脚本**:
@@ -38,7 +38,7 @@
 # 默认值
 DEFAULT_WORKER_URL="https://claude-code-proxy.suixifa.workers.dev"
 DEFAULT_API_KEY="sk-"
-DEFAULT_OPEN_AI_URL="tbai.xin/v1"
+DEFAULT_OPEN_AI_URL="api.oaibest.com/v1"
 DEFAULT_OPEN_MODEL="gemini-2.5-pro"
 
 # 提示用户输入配置
